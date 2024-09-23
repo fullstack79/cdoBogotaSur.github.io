@@ -1,0 +1,141 @@
+div#clase1 {
+    background-color: blue; /* Fondo azul */
+    color: white; /* Letras blancas */
+    size: 24px;
+    font-variant: garamond,bold;
+    padding: 2.5px; /* Espacio interno */
+    border-radius: 15px; /* Bordes redondeados de 15px */
+    text-align: center; /* Centrar el texto */
+    margin: 10px;
+
+   }
+
+   /* Sobrescribir estilos para los párrafos dentro de div#clase1 */
+   div#clase1 p {
+    font-size: 24px;
+    color: white; 
+    padding-left: 0; 
+    cursor: default; 
+  }
+
+div#clase3 {
+    background-color: rgb(11, 11, 11); 
+    size: 16px;
+    font-variant: garamond,bold;
+    padding: 2.5px; 
+    border-radius: 15px; 
+    text-align: center; 
+    margin: 10px;
+
+   }
+
+   /* Sobrescribir estilos para los párrafos dentro de div#clase1 */
+   div#clase3 p {
+    font-size: 24px; /* Asegura que el tamaño de fuente sea 16px */
+    color: white; /* Letras blancas */
+    padding-left: 0; /* Remueve el padding-left específico */
+    cursor: default; /* Cambia el cursor si es necesario */
+  }
+
+ .sin-puntos {
+    list-style-type: none;
+    }
+
+   /*codigo carousel pdf en Predicas*/
+  .carousel-container-pdf {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .carousel-pdf {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+  
+  .item {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .item img {
+    width: 80%;
+    max-height: 500px;
+    margin: 10px 0;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: none; /* Ocultar todas las imágenes al inicio */
+  }
+  
+  .item img.show {
+    display:inline; /* Mostrar la imagen actual */
+  }
+  
+  .caption1, .caption2, .caption3, .caption4, .caption5 {
+    color: #fff;
+    font-family: 'Garamond', serif;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 10px;
+  }
+    
+  .btn2_prev, .btn2_next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    z-index: 10;
+  }
+  
+  .btn2_prev {
+    left: 15px;
+  }
+  
+  .btn2_next {
+    right: 15px;
+  }
+  
+  .btn2_prev img, .btn2_next img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+  
+  .dots2 {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .dots2 button {
+    background-color: #ccc;
+    border: none;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dots2 button.active {
+    background-color: #fff;
+  }
+  
+  

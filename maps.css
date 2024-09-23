@@ -1,0 +1,74 @@
+ /* Contenedor de los mapas */
+  .sin-puntos {
+    padding: 20px;
+  }
+  
+  .sin-puntos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sin-puntos li {
+    margin-bottom: 30px; /* Espacio entre cada item */
+    text-align: center;
+  }
+  
+  .mirador {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .mirador img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd; /* Borde sutil para las imágenes */
+    border-radius: 5px; /* Bordes redondeados */
+    border-color: blue;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .mirador2 {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .mirador2 img {
+    max-width: 90%;
+    height: auto;
+    border: 2px solid #ddd; /* Borde sutil para las imágenes */
+    border-radius: 5px; /* Bordes redondeados */
+    border-color: blue;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .mirador img:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra sutil */
+  }
+  .mirador2 img:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra sutil */
+  }
+  
+  h3 {
+    font-family: 'Garamond', serif;
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  button.mirador a {
+    text-decoration: none;
+  }
+  div.footer_M{
+    padding: 15px;
+    height: 120px;
+    background: blue;
+    align-items: center;
+    border-radius: 15px;
+    border-top-color: black;
+  }

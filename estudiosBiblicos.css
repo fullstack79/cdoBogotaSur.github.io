@@ -1,0 +1,77 @@
+
+.sin-puntos {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.sin-puntos li {
+  flex: 1;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.sin-puntos div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.sin-puntos div:hover {
+  transform: translateY(-5px);
+}
+
+.sin-puntos img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+#b-espada0, #b-espada, #b-espada2 {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+#b-espada0:hover, #b-espada:hover, #b-espada2:hover {
+  background-color: #555;
+}
+
+.footer-EB {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.footer-EB a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-EB a:hover {
+  text-decoration: underline;
+}
+.contenedorBotones{
+  padding-top: 0;
+}
+.contenedorContenido{
+  padding-bottom: 26px;
+}

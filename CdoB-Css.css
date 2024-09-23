@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+/*site Home y principal*/
+body,.ContenedorPadre {
+	background: rgb(248, 244, 244);
+    width: auto;
+    height: auto;
+    
+}
+
+.contenedorPortada{
+    width: 1270px;
+    height: 360px;
+    background:#FFF;
+    background-image:url('../Img/tablas.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 20px; /* Espaciado interno en los botones */
+	  margin: 5px; /* Espaciado entre los botones */
+	  border-radius: 15px;
+	  border: 4.5px solid #03F;
+  }
+
+h5{
+    animation-duration: 3s;
+    animation-name: deslizar;  
+    font: garamond,bold;
+	  font-size:48px;
+    color: blue;
+    padding: 0.5em;
+	  position:absolute;
+  } 
+  
+@keyframes deslizar{
+  from{
+    margin-left: 100%;
+    width: 300%;
+  }to{
+    margin-left: 0%;
+    width: 100%;
+  }
+      
+}
+
+  #logo{
+    width: 30%;
+    height: 30%;
+    margin-bottom: 1px;
+    margin-left: 937px;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    padding-bottom: 0px;
+    margin-top: 18px;
+  }
+
+  .contenedorBotones{
+	  display: inline-block;
+	  box-sizing: border-box; /* To include padding in width */
+    vertical-align: top;
+    background:#FFF;
+	  width: 320px;
+	  height:auto;
+	  padding: 10px 20px; /* Espaciado interno en los botones */
+    padding-top: 70px;
+	  margin: 5px; /* Espaciado entre los botones */
+	  border-radius: 15px;
+	  border: 4.5px solid #03F;
+	  box-sizing:border-box; 
+	}
+
+    #consejeria,
+    #predicas,
+    #Videos,
+    #E-B,
+    #contactar,
+    #fe,
+    #Home{
+    position: center;
+    padding-top: 50%;
+	  background: #06F;
+	  width: 160px;
+	  height:auto;
+	  padding: 0.5em;
+	  font-family:garamond;
+	  font-size: 20px;
+	  font: #FFF ;	  
+	  border-radius: 15px;
+	  border-color: #FFF;
+	  cursor: pointer;
+	    }
+	  	 
+.contenedorContenido{
+	  display: inline-block;
+	  box-sizing: border-box; /* To include padding in width */
+    vertical-align: top;
+	  background:#FFF;
+	  width: 987px;
+	  height:auto;
+	  padding: 10px 20px; /* Espaciado interno en los botones */
+	  margin: 5px; /* Espaciado entre los botones */
+	  border-radius: 15px;
+	  border: 4.5px solid #03F;
+	  box-sizing:border-box;
+  }
+
+  div.footer {  /*contenedor de texto con datos*/
+    background:#fff;
+    padding: 0.2px 20px;
+    font-family: garamond;
+    font-size: 30px;
+    color: #10100e;
+    margin-top: -92.56px; /* Ajusta según sea necesario */
+    position: relative; /* Asegura que z-index funcione */
+    z-index: 2; /* Asegura que el h1.footer esté delante de los otros elementos */
+  }
+
+  div.footer-V,
+  div.footer-P,
+  div.footer-EB,
+  div.footer-C,
+  div.footer-J,
+  div.footer_M{
+    height: 240.4px;
+    background:#fff;
+    padding: 0.2px 20px;
+   /* margin-top: 100px;*/
+    font-family: garamond;
+    font-size: 30px;
+    color: #10100e;
+    position: relative; /* Asegura que z-index funcione */
+    z-index: 2;
+  }
+
+  div.footer{
+    margin-top: -36.56px;
+    z-index: 2;
+  }
+
+  /*codigo carousel Index en Home --mirar el js del carousel*/
+    
+  .carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .item {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .caption {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .btn_prev, .btn_next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .btn_prev {
+    left: 10px;
+  }
+  
+  .btn_next {
+    right: 10px;
+  }
+  
+  .btn_prev img, .btn_next img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .dots {
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .dots .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .dots .dot.active {
+    background-color: #333;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+  
+  .footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  #f p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
