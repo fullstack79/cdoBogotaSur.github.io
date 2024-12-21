@@ -1,88 +1,101 @@
 <!DOCTYPE html>
-<html xmlns="https://www.casadeoracionbogota.co.git">
+<html lang="es">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Bilia, devocionales,predicas,videos,evangelismo,profesia,consejos,herramientas,contacto,direccion"/>
-<meta name="description" content="Casa de oracion Bogota SUR - Colombia"/>
-<meta name="viewport" content="width=device-width, inicial-scale=1"/>
-<link rel="icon" href="favicon.ico" name="favicon" content="ico" type="img/ico"/> 
-<link href="./CdoB-Css.css" rel="stylesheet" type="text/css"/>
-<script src="./App.carousel.js"> </script>
-<title>CASA DE ORACION BOGOTA SUR</title>
-</head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="Bilia, devocionales, predicas, videos, evangelismo, profecía, consejos, herramientas, contacto, dirección"/>
+  <meta name="description" content="Casa de Oración Bogotá SUR - Colombia"/>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link href="./CdoB-Css.css" rel="stylesheet" type="text/css"/>
+  <title>CASA DE ORACION BOGOTA SUR</title>
+</head>
 <body>
-<div class="ContenedorPadre">
-<!--parte superior de bienvenida al cliente-->
-<div class="contenedorPortada">
-<h5>CASA DE ORACION BOGOTA SUR <br>BIENVENID@</h5>
-<div id="portada">
-<img
-    src="./CASA DE ORACION SUR.png"
-    alt="Logo de casa de oracion de tres colores: azul,blanco y negro. Una casa en una colina con un camino."
-    id="logo">
-</div>
-</div>
-<!--parte media de interaccion con el cliente --Aqui va el carousel-->
-<div class="contenedorBotones">
-<ul>
-<li class="sin-puntos"><a href="./consejeria.html"><button id="consejeria">CONSEJERIA</button></a></li><br>
-<li class="sin-puntos"><a href="./predicas.html"><button id="predicas">PREDICAS</button></a></li><br>
-<li class="sin-puntos"><a href="./videos.html"><button id="Videos"> VIDEOS</button></a></li><br>
-<li class="sin-puntos"><a href="./estudiosBiblicos.html"><button id="E-B"> ESTUDIOS BIBLICOS</button></a></li><br>
-<li class="sin-puntos"><a href="./contacto.html"><button id="contactar"> CONTACTAR</button></a></li><br>
-<li class="sin-puntos"><a href="./fe.html"><button id="fe"> FE</button></a></li><br>
-</ul>
-</div>
-
-<!-- contine el carousel-->
-    <div class="contenedorContenido"><br>
-        <main class="carousel-container">
-            <div class="carousel">
-              <div class="item active">
-                <img src="./poster 1 -para web.PNG" alt="imagen de respaldo 1" />
-                <p class="caption">Caption for Image 1</p>
-              </div>
-              <div class="item">
-                <img src="./poster 2 -para web.PNG" alt="imagen de respaldo2" />
-                <p class="caption">Caption for Image 2</p>
-              </div>
-              <div class="item">
-                <img src="./poster 3 -para web.PNG" alt="imagen de respaldo3" />
-                <p class="caption">Caption for Image 3</p>
-              </div>
-              <div class="item">
-                <img src="./poster 4 -para web.PNG" alt="imagen de respaldo 4" />
-                <p class="caption">Caption for Image 4</p>
-              </div>
-              <div class="item">
-                <img src="./poster 5 -para web.PNG" alt="imagen de respaldo 5" />
-                <p class="caption">Caption for Image 5</p>
-              </div>
-            </div>
-            <button class="btn_prev">
-              <object data="image.png" type="image/peg">
-              <img src="./flechaIzquierda.png" alt="flecha a la izquierda" id="arrow-right">
-              </object>
-            </button>
-            <button class="btn_next">
-              <object data="image.png" type="image/peg">
-              <img src="./flechaDerecha.png" alt="flecha a la derecha" id="arrow-left">
-              </object>
-            </button>
-            <div class="dots"></div>
-          </main><br>
-          <div class="footer"> 
-            José Joaquín Vargas<br>
-            AV. 68 # 67F -12<br>
-            Bogotá -Colombia<br>
-            Copyright 2024 <br>
-            Casa de Oración Bogotá-Sur.<br>All rights reserved. 
-            <span id="f"><p>Elaborado por: <a href="./formulario.html">Prodideprofesional@gmail.com</a></p></span>
-          </div><br>
-        
+  <div class="container">
+    <!-- Parte superior de bienvenida al cliente -->
+    <div class="text-center py-4">
+      <h5>CASA DE ORACION BOGOTA SUR <br>BIENVENID@</h5>
+      <div id="portada">
+        <img src="./CASA DE ORACION SUR.png" 
+          alt="Logo de casa de oración de tres colores: azul, blanco y negro. Una casa en una colina con un camino." 
+          id="logo" class="img-fluid">
+      </div>
     </div>
-   
-</div>
 
+    <!-- Parte media de interacción con el cliente -->
+    <div class="text-center my-4">
+      <ul class="list-unstyled">
+        <li class="my-2"><a href="./consejeria.html" class="btn btn-primary">CONSEJERIA</a></li>
+        <li class="my-2"><a href="./predicas.html" class="btn btn-primary">PREDICAS</a></li>
+        <li class="my-2"><a href="./videos.html" class="btn btn-primary">VIDEOS</a></li>
+        <li class="my-2"><a href="./estudiosBiblicos.html" class="btn btn-primary">ESTUDIOS BIBLICOS</a></li>
+        <li class="my-2"><a href="./contacto.html" class="btn btn-primary">CONTACTAR</a></li>
+        <li class="my-2"><a href="./fe.html" class="btn btn-primary">FE</a></li>
+      </ul>
+    </div>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./poster 1 -para web.PNG" class="d-block w-100" alt="Imagen de respaldo 1">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Caption for Image 1</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./poster 2 -para web.PNG" class="d-block w-100" alt="Imagen de respaldo 2">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Caption for Image 2</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./poster 3 -para web.PNG" class="d-block w-100" alt="Imagen de respaldo 3">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Caption for Image 3</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./poster 4 -para web.PNG" class="d-block w-100" alt="Imagen de respaldo 4">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Caption for Image 4</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./poster 5 -para web.PNG" class="d-block w-100" alt="Imagen de respaldo 5">
+          <div class="carousel-caption d-none d-md-block">
+            <p>Caption for Image 5</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 mt-4 border-top">
+      <p>José Joaquín Vargas</p>
+      <p>AV. 68 # 67F -12</p>
+      <p>Bogotá - Colombia</p>
+      <p>Copyright 2024 Casa de Oración Bogotá-Sur. All rights reserved.</p>
+      <p>Elaborado por: <a href="./formulario.html">Prodideprofesional@gmail.com</a></p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./App.carousel.js"></script>
 </body>
 </html>
